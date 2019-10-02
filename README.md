@@ -1,15 +1,16 @@
 # Implementaciones de Ejemplo de Grafos
 
 Ejemplos de diferentes implementaciones de Grafos. 
-C骴igo fuente en Java que puede usarse como base para la construcci髇 de una Graph Product Line (GPL), L韓ea de Productos de Grafos.
+C贸digo fuente en Java que puede usarse como base para la construcci贸n de una Graph Product Line (GPL), L铆nea de Productos de Grafos.
 
 ## Ejemplos
 
-| Paquete                        | Descripci髇                                      |
+| Paquete                        | Descripci贸n                                      |
 | ------------------------------ | ------------------------------------------------ |
-| `ejemplo.grafo`                | Grafo no dirigido con b鷖queda de rutas con DFS  |
-| `ejemplo.grafoConBFS`          | Grafo no dirigido con b鷖queda de rutas con BFS  |
-| `ejemplo.grafoDirigido`        | Grafo dirigido con b鷖queda de rutas con DFS     |
-| `ejemplo.grafoDirigidoConBFS`  | Grafo no dirigido con b鷖queda de rutas con BFS  |
+| `ejemplo.grafo`                | Grafo no dirigido con b煤squeda de rutas con DFS  |
+| `ejemplo.grafoConBFS`          | Grafo no dirigido con b煤squeda de rutas con BFS  |
+| `ejemplo.grafoDirigido`        | Grafo dirigido con b煤squeda de rutas con DFS     |
+| `ejemplo.grafoDirigidoConBFS`  | Grafo no dirigido con b煤squeda de rutas con BFS  |
 | `ejemplo.grafoDirigidoConPeso` | Grafo dirigido con arcos con peso                |
+| `spl.grafo` | Soluci贸n utilizando el patr贸n fabrica con instanciaci贸n que incluye todos los tipos de grafo y utilizaci贸n del patr贸n de estrategia para los algoritmos de b煤squeda|
 
