@@ -26,7 +26,7 @@ public class Nodo {
 	}
 	
 	public List<Nodo> getNodosAdyacentes(){
-		List nodos = new ArrayList<>();
+		List<Nodo> nodos = new ArrayList<>();
 		for (Arco arco : arcos) {
 			nodos.add(arco.getDestino());
 		}

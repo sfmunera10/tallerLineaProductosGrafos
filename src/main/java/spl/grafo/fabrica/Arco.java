@@ -1,11 +1,10 @@
 package spl.grafo.fabrica;
 
-import ejemplo.grafoDirigidoConPeso.Nodo;
-
 public class Arco {
 	private Nodo origen;
 	private Nodo destino;
 	private int	peso;
+	private boolean bidireccional;
 	
 	public Arco() {	}
 	
@@ -28,5 +27,12 @@ public class Arco {
 	}
 	public void setPeso(int peso) {
 		this.peso = peso;
+	}
+	
+	public boolean isBidireccional() {
+		return bidireccional;
+	}
+	public void setBidireccional(boolean b) {
+		this.bidireccional = b;
 	}
 }
