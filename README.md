@@ -14,3 +14,6 @@ Código fuente en Java que puede usarse como base para la construcción de una G
 | `ejemplo.grafoDirigidoConPeso` | Grafo dirigido con arcos con peso                |
 | `spl.grafo` | Solución utilizando el patrón fabrica con instanciación que incluye todos los tipos de grafo y utilización del patrón de estrategia para los algoritmos de búsqueda|
 
+## Demo (spl.grafo)
+
+[![LPSGraph Demo Video](https://user-images.githubusercontent.com/20799440/66424842-0489f780-e9d4-11e9-8dac-d3f391db37aa.png)](https://youtu.be/R7zjgwNh7hI)
