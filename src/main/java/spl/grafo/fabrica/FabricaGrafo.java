@@ -18,7 +18,7 @@ public class FabricaGrafo {
 		}
 				
 		// obtiene el valor. por defecto use "ejemplo.sha256"
-		return opciones.getProperty("gd", "spl.grafo.fabrica.GrafoDirigido");
+		return opciones.getProperty("gndp", "spl.grafo.fabrica.GrafoNoDirigidoPeso");
 
 	}
 	

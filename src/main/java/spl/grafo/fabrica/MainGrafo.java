@@ -14,20 +14,23 @@ public static void main(String[] args) {
 			g.agregarNodo("A");
 			g.agregarNodo("B");
 			g.agregarNodo("C");
+			g.agregarNodo("D");
 			
-			g.agregarArco("A", "B", 1);
-			g.agregarArco("B", "C", 1);
-			g.agregarArco("A", "C", 2);
+			g.agregarArco("A", "D", 5);
+			
 
 			//Aquí se puede cambiar entre EstrategiaBFS o EstrategiaDFS
 			g.setEstrategiaBusqueda(new EstrategiaBFS());
 			
-			List<Nodo> camino = g.buscarRuta("A", "C", g.getNodos());
+			String nodoOrigen = "A";
+			String nodoDestino = "D";
+			
+			List<Nodo> camino = g.buscarRuta(nodoOrigen, nodoDestino, g.getNodos());
 			
 			if (camino == null) {
-				System.out.println("Camino A -> C no encontrado");
+				System.out.println("Camino "+nodoOrigen+ " -> "+ nodoDestino+ " no encontrado");
 			} else {
-				System.out.println("Camino A -> C encontrado");
+				System.out.println("Camino "+nodoOrigen+ " -> "+ nodoDestino+ " encontrado");
 				for (Nodo nodo: camino) {
 					System.out.println(nodo.getNombre());
 				}				
